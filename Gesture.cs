@@ -56,7 +56,6 @@ public class Gesture : MonoBehaviour
 
     private void Start()
     {
-        GameManager.Instance.isPause = false;
         onTouchStart += InitializeGesture;
         onTouching += ProcessTouching;
         onTouchEnd += ProcessTouchEnd;
